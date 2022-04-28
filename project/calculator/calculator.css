@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background: linear-gradient(to left,#7808f0,#06bdf5);
+    
+}
+.calci{
+
+    width: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    
+}
+
+#display{
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    width: 245;
+    font-size: 20;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border: 2px solid white;
+    
+}
+
+.btndesign{
+    border-radius: 20px;
+    height: 55;
+    width: 55;
+    padding-top: -1;
+    border: none;
+    font-family: 20;
+    font-weight: 300;
+    font-size: medium;
+    margin: 1.5;
+    background-color: white;
+}
+
+.operatorDesign{
+    border-radius: 20px;
+    height: 55;
+    width: 55;
+    padding-top: -1;
+    background-color: white;
+    border: none;
+    font-family: 20;
+    font-weight: 300;
+    font-size: medium;
+    margin: 1.5;
+    
+}
+
+.operatorDesign:hover{
+    background: #00d9ff;
+
+}
+#zero{
+    border-radius: 20px;
+    height: 100;
+    width: 116;
+    padding-top: -1;
+    border: none;
+    font-family: 20;
+    font-weight: 300;
+    font-size: medium;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+h1{
+    color: white;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    text-decoration: underline;
+    font-size: 100;
+}
+h2{
+    color: black;
+    margin-top: 50px;
+    margin-left: 125px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    text-decoration:none;
+    font-size: 40;
+}
